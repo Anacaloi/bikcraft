@@ -15,3 +15,27 @@ a {
 .header-bg {
   background-color: #000000;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* faz com que o padding não seja contabilizado no max-width, caso contrário o valor deste seria 1160px */
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu a {
+  color: #ffffff;
+  display: inline-block;
+  /* padding com função de aumentar a área de contato do link */
+  padding: 16px 0;
+}
