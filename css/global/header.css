@@ -26,10 +26,7 @@
   display: inline-block;
   /* padding com função de aumentar a área de contato do link */
   padding: 16px 0;
-  font-size: 18px;
   position: relative;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 
 .header-menu a::after {
